@@ -1,0 +1,15 @@
+server: 
+  port: 8989
+management:
+  port: 8990
+spring: 
+  application:
+    name: turbine
+eureka:
+  client:
+    serviceUrl: 
+      defaulteZone: http\://peer1\:8761/eureka/
+turbine:
+  app-config: ribbon-consumer
+  combine-host-port: true
+  

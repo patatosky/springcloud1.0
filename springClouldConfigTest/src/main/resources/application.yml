@@ -1,0 +1,12 @@
+server: 
+      port:  8081
+
+my:
+  name: tom
+  age: 12
+  number: ${random.int}
+  unid : ${random.uuid} 
+  max : ${random.int(10)} 
+  value : ${random.value}
+  greeting : hi,I am ${my.name} 
+  
